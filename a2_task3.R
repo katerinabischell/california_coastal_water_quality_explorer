@@ -16,7 +16,7 @@ ui <- navbarPage(
   tabPanel("Home",
            h1("Welcome to the California Coastal Water Quality Explorer"),
            p("Explore water quality trends off the California coast using CalCOFI and EPA/USGS datasets."),
-           img(src = "coast.jpg", height = "300px"),
+           img(src = "images/coast.jpg", height = "300px"),
            h2("About the Data"),
            p("This app provides interactive visualizations and analyses of oceanographic changes and pollution levels over time.")
   ),
