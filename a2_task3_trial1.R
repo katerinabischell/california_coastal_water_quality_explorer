@@ -5,8 +5,6 @@ library(tidyverse)
 library(DT)
 library(janitor)
 
-### Load Cast Data Only (Since Bottle Data is Empty) ###
-calcofi_cast <- read.csv("data/calcofi_cast.csv", fileEncoding = "UTF-8-BOM") %>% clean_names()
 
 ### UI Section ###
 ui <- navbarPage(

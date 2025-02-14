@@ -5,12 +5,7 @@ library(tidyverse)
 library(DT)
 library(janitor)
 
-### Load and Validate Bottle Data with Encoding Fix ###
-if (!file.exists("data/calcofi_bottle.csv")) {
-  stop("Error: 'calcofi_bottle.csv' not found in data directory. Ensure correct path.")
-}
 
-calcofi_bottle <- read.csv("data/calcofi_bottle.csv", fileEncoding = "UTF-8-BOM", check.names = TRUE) %>% clean_names()
 
 ### UI Section ###
 ui <- navbarPage(
